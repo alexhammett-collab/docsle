@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import MembersChat from './components/MembersChat';
 import Home from './pages/Home';
 import Rides from './pages/Rides';
 import Events from './pages/Events';
@@ -25,6 +26,7 @@ export default function App() {
         </Routes>
       </main>
       <Footer />
+      <MembersChat />
     </BrowserRouter>
   );
 }
