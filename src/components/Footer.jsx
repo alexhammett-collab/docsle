@@ -18,7 +18,7 @@ export default function Footer() {
                 <span style={{ color: 'white', fontFamily: 'Bebas Neue', fontSize: '1rem' }}>D</span>
               </div>
               <div>
-                <div style={{ fontFamily: 'Bebas Neue', fontSize: '1.3rem', color: 'white', letterSpacing: '0.15em' }}>DOCSLE</div>
+                <div style={{ fontFamily: 'Bebas Neue', fontSize: '1.3rem', color: 'white', letterSpacing: '0.15em' }}>DOCLSE</div>
                 <div style={{ fontSize: '0.55rem', color: 'rgba(255,255,255,0.4)', letterSpacing: '0.2em', textTransform: 'uppercase', fontFamily: 'Rajdhani' }}>London &amp; South East</div>
               </div>
             </div>
@@ -54,8 +54,8 @@ export default function Footer() {
               { to: '/rides', label: 'Ride Outs' },
               { to: '/events', label: 'Events & Calendar' },
               { to: '/members', label: 'Members' },
-              { to: '/partners', label: 'DOCSLE Partners' },
-              { to: '/about', label: 'About DOCSLE' },
+              { to: '/partners', label: 'DOCLSE Partners' },
+              { to: '/about', label: 'About DOCLSE' },
             ].map(l => (
               <Link key={l.to} to={l.to} style={{
                 display: 'block', color: 'rgba(255,255,255,0.5)', textDecoration: 'none',
@@ -73,7 +73,7 @@ export default function Footer() {
             <h4 style={{ fontFamily: 'Rajdhani', fontWeight: 700, fontSize: '0.75rem', letterSpacing: '0.25em', textTransform: 'uppercase', color: 'var(--ducati-red)', marginBottom: '1.25rem' }}>Contact</h4>
             {[
               { icon: <MapPin size={15} />, text: 'London & South East, UK' },
-              { icon: <Mail size={15} />, text: 'hello@docsle.co.uk' },
+              { icon: <Mail size={15} />, text: 'hello@doclse.co.uk' },
               { icon: <Phone size={15} />, text: '+44 (0)20 0000 0000' },
             ].map((c, i) => (
               <div key={i} style={{ display: 'flex', gap: '0.75rem', alignItems: 'flex-start', marginBottom: '0.75rem', color: 'rgba(255,255,255,0.5)', fontSize: '0.875rem' }}>
@@ -113,7 +113,7 @@ export default function Footer() {
 
         <div style={{ borderTop: '1px solid rgba(255,255,255,0.08)', paddingTop: '1.5rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1rem' }}>
           <p style={{ color: 'rgba(255,255,255,0.3)', fontSize: '0.8rem' }}>
-            © 2026 DOCSLE — Ducati Owners Club London &amp; South East. All rights reserved.
+            © 2026 DOCLSE — Ducati Owners Club London &amp; South East. All rights reserved.
           </p>
           <p style={{ color: 'rgba(255,255,255,0.2)', fontSize: '0.75rem' }}>
             Not affiliated with Ducati Motor Holding S.p.A.

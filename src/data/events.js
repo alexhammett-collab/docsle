@@ -1,7 +1,7 @@
 export const events = [
   {
     id: 1,
-    title: "DOCSLE Spring Meet 2026",
+    title: "DOCLSE Spring Meet 2026",
     category: "Club Event",
     date: "2026-04-12",
     time: "11:00",
@@ -45,7 +45,7 @@ export const events = [
     date: "2026-06-07",
     time: "10:00",
     location: "Ducati Museum, Via Antonio Cavalieri Ducati, Bologna",
-    description: "Private factory and museum tour arranged exclusively for DOCSLE members. Includes Ducati Desmo Days circuit session.",
+    description: "Private factory and museum tour arranged exclusively for DOCLSE members. Includes Ducati Desmo Days circuit session.",
     image: "https://images.unsplash.com/photo-1660895707196-b7d45d049802?w=1200&q=95&auto=format",
     country: "Italy",
     attending: 18,

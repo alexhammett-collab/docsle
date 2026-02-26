@@ -34,7 +34,7 @@ export default function About() {
           <div>
             <div className="section-label" style={{ marginBottom: '0.75rem' }}>Est. London, 2014</div>
             <h1 className="font-display" style={{ fontSize: 'clamp(2.5rem, 6vw, 5rem)', color: 'white', lineHeight: 0.95, marginBottom: '1.25rem' }}>
-              ABOUT<br /><span style={{ color: 'var(--ducati-red)' }}>DOCSLE</span>
+              ABOUT<br /><span style={{ color: 'var(--ducati-red)' }}>DOCLSE</span>
             </h1>
             <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '1rem', lineHeight: 1.7, fontWeight: 300 }}>
               The Ducati Owners Club London &amp; South East — founded by riders, for riders.
@@ -53,7 +53,7 @@ export default function About() {
             </h2>
             <div className="red-divider" style={{ marginBottom: '1.5rem' }} />
             <p style={{ color: 'rgba(255,255,255,0.65)', fontSize: '0.95rem', lineHeight: 1.8, marginBottom: '1.25rem' }}>
-              DOCSLE was founded in 2014 by a small group of Ducati enthusiasts who wanted to ride together and share the unique experience of owning a Ducati in London.
+              DOCLSE was founded in 2014 by a small group of Ducati enthusiasts who wanted to ride together and share the unique experience of owning a Ducati in London.
             </p>
             <p style={{ color: 'rgba(255,255,255,0.65)', fontSize: '0.95rem', lineHeight: 1.8 }}>
               Over twelve years we have grown to 300+ members across Surrey, Kent, Sussex, Essex and beyond. All models and all riding abilities welcome.
@@ -100,8 +100,8 @@ export default function About() {
         </div>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1.5rem' }}>
           {[
-            { name: 'Standard', price: '£25', period: '/year', highlight: false, features: ['Full ride access', 'Event invitations', 'Digital membership card', 'Member forum access', 'DOCSLE newsletter'] },
-            { name: 'Premium', price: '£60', period: '/year', highlight: true, features: ['Everything in Standard', 'Priority Italy trip booking', 'DOCSLE kit discount', 'Track day priority', 'Exclusive member evenings', 'Ducati dealer discounts'] },
+            { name: 'Standard', price: '£25', period: '/year', highlight: false, features: ['Full ride access', 'Event invitations', 'Digital membership card', 'Member forum access', 'DOCLSE newsletter'] },
+            { name: 'Premium', price: '£60', period: '/year', highlight: true, features: ['Everything in Standard', 'Priority Italy trip booking', 'DOCLSE kit discount', 'Track day priority', 'Exclusive member evenings', 'Ducati dealer discounts'] },
           ].map((tier, i) => (
             <div key={i} style={{ border: tier.highlight ? '2px solid var(--ducati-red)' : '1px solid rgba(255,255,255,0.1)', background: tier.highlight ? 'rgba(204,0,0,0.06)' : 'var(--ducati-gray)', padding: '2.5rem 2rem', position: 'relative' }}>
               {tier.highlight && (

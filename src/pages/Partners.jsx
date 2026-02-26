@@ -103,7 +103,7 @@ function PartnerModal({ partner, onClose }) {
           <div style={{ background: 'rgba(204,0,0,0.08)', border: '2px solid rgba(204,0,0,0.4)', padding: '1.5rem', marginBottom: '1.5rem' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', marginBottom: '0.75rem' }}>
               <Tag size={18} style={{ color: 'var(--ducati-red)' }} />
-              <span style={{ fontFamily: 'Rajdhani', fontWeight: 700, fontSize: '0.75rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--ducati-red)' }}>Exclusive DOCSLE Offer</span>
+              <span style={{ fontFamily: 'Rajdhani', fontWeight: 700, fontSize: '0.75rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--ducati-red)' }}>Exclusive DOCLSE Offer</span>
             </div>
             <div className="font-display" style={{ fontSize: '1.8rem', color: 'white', lineHeight: 1, marginBottom: '0.6rem' }}>{partner.offer}</div>
             <p style={{ color: 'rgba(255,255,255,0.6)', fontSize: '0.875rem', lineHeight: 1.6, marginBottom: '0.75rem' }}>{partner.offerDetail}</p>
@@ -160,10 +160,10 @@ export default function Partners() {
           <div style={{ maxWidth: '600px' }}>
             <div className="section-label" style={{ marginBottom: '0.75rem' }}>Exclusive Member Discounts</div>
             <h1 className="font-display" style={{ fontSize: 'clamp(2.5rem, 6vw, 5rem)', color: 'white', lineHeight: 0.95, marginBottom: '1.25rem' }}>
-              DOCSLE<br /><span style={{ color: 'var(--ducati-red)' }}>PARTNERS</span>
+              DOCLSE<br /><span style={{ color: 'var(--ducati-red)' }}>PARTNERS</span>
             </h1>
             <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '1rem', lineHeight: 1.7, fontWeight: 300, maxWidth: '460px' }}>
-              Trusted suppliers, specialists and service providers offering exclusive deals to DOCSLE members. Show your membership card and save.
+              Trusted suppliers, specialists and service providers offering exclusive deals to DOCLSE members. Show your membership card and save.
             </p>
           </div>
         </div>
@@ -173,10 +173,10 @@ export default function Partners() {
       <section style={{ background: 'var(--ducati-gray)', borderTop: '3px solid var(--ducati-red)', borderBottom: '1px solid rgba(255,255,255,0.06)', padding: '2.5rem 2rem' }}>
         <div style={{ maxWidth: '1400px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '2rem' }}>
           {[
-            { step: '01', title: 'Join DOCSLE', desc: 'Become a member for just £25/year' },
+            { step: '01', title: 'Join DOCLSE', desc: 'Become a member for just £25/year' },
             { step: '02', title: 'Find an Offer', desc: 'Browse exclusive partner deals below' },
             { step: '03', title: 'Claim Your Discount', desc: 'Show your card or use the promo code' },
-            { step: '04', title: 'Enjoy the Saving', desc: 'Exclusive rates only for DOCSLE riders' },
+            { step: '04', title: 'Enjoy the Saving', desc: 'Exclusive rates only for DOCLSE riders' },
           ].map(s => (
             <div key={s.step} style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start' }}>
               <div className="font-display" style={{ fontSize: '2rem', color: 'var(--ducati-red)', lineHeight: 1, opacity: 0.5, minWidth: '3rem' }}>{s.step}</div>
@@ -230,11 +230,11 @@ export default function Partners() {
         <div style={{ maxWidth: '700px', margin: '0 auto', textAlign: 'center' }}>
           <div className="section-label" style={{ marginBottom: '0.75rem' }}>Grow Your Business</div>
           <h2 className="font-display" style={{ fontSize: 'clamp(2rem, 4vw, 3.5rem)', color: 'white', lineHeight: 1, marginBottom: '1.25rem' }}>
-            BECOME A<br /><span style={{ color: 'var(--ducati-red)' }}>DOCSLE PARTNER</span>
+            BECOME A<br /><span style={{ color: 'var(--ducati-red)' }}>DOCLSE PARTNER</span>
           </h2>
           <div className="red-divider" style={{ margin: '0 auto 1.5rem' }} />
           <p style={{ color: 'rgba(255,255,255,0.6)', fontSize: '0.95rem', lineHeight: 1.75, marginBottom: '2rem' }}>
-            Reach 300+ passionate Ducati owners across London and the South East. Partner with DOCSLE to promote your services, parts or experiences directly to dedicated riders.
+            Reach 300+ passionate Ducati owners across London and the South East. Partner with DOCLSE to promote your services, parts or experiences directly to dedicated riders.
           </p>
           <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap', marginBottom: '2.5rem' }}>
             {['Homepage feature', 'Dedicated partner listing', 'Social media posts', 'Newsletter inclusion', 'Event presence'].map(b => (
@@ -243,7 +243,7 @@ export default function Partners() {
               </div>
             ))}
           </div>
-          <a href="mailto:partners@docsle.co.uk" style={{ textDecoration: 'none' }}>
+          <a href="mailto:partners@doclse.co.uk" style={{ textDecoration: 'none' }}>
             <button className="btn-primary" style={{ padding: '1rem 2.5rem', fontSize: '1rem' }}>
               Partner Enquiries <ArrowRight size={18} />
             </button>

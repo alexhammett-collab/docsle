@@ -59,7 +59,7 @@ export const members = [
     joined: 2014,
     rides: 89,
     miles: 34700,
-    bio: "Founded DOCSLE in 2014. Completed the Ducati Dolomites tour three times and counting.",
+    bio: "Founded DOCLSE in 2014. Completed the Ducati Dolomites tour three times and counting.",
     image: D.ducatiMoro,
     bikeImage: D.ducatiAbhijeet,
     social: { instagram: "@kelloway_moto" },

@@ -141,7 +141,7 @@ export default function Home() {
               </Link>
               <Link to="/about" style={{ textDecoration: 'none' }}>
                 <button className="btn-outline">
-                  Join DOCSLE
+                  Join DOCLSE
                 </button>
               </Link>
             </div>
@@ -203,7 +203,7 @@ export default function Home() {
               WORLD DUCATI<br /><span style={{ color: 'var(--ducati-red)' }}>WEEK 2026</span>
             </h2>
             <p style={{ color: 'rgba(255,255,255,0.7)', maxWidth: '450px', lineHeight: 1.7, marginBottom: '1.5rem' }}>
-              Join the DOCSLE convoy to Misano. Group ferry crossing, guided ride through France and Switzerland, and the world's greatest Ducati festival awaits.
+              Join the DOCLSE convoy to Misano. Group ferry crossing, guided ride through France and Switzerland, and the world's greatest Ducati festival awaits.
             </p>
             <Link to="/events" style={{ textDecoration: 'none' }}>
               <button className="btn-primary">

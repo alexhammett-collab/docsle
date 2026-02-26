@@ -53,7 +53,7 @@ export default function Navbar() {
               <span style={{ color: 'white', fontFamily: 'Bebas Neue', fontSize: '1rem', letterSpacing: '0.05em' }}>D</span>
             </div>
             <div>
-              <div style={{ fontFamily: 'Bebas Neue', fontSize: '1.4rem', color: 'white', letterSpacing: '0.15em', lineHeight: 1 }}>DOCSLE</div>
+              <div style={{ fontFamily: 'Bebas Neue', fontSize: '1.4rem', color: 'white', letterSpacing: '0.15em', lineHeight: 1 }}>DOCLSE</div>
               <div style={{ fontSize: '0.55rem', color: 'rgba(255,255,255,0.5)', letterSpacing: '0.2em', textTransform: 'uppercase', fontFamily: 'Rajdhani', lineHeight: 1 }}>Ducati Owners Club London &amp; SE</div>
             </div>
           </Link>
