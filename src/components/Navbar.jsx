@@ -8,6 +8,7 @@ const navLinks = [
   { to: '/events', label: 'Events' },
   { to: '/members', label: 'Members' },
   { to: '/partners', label: 'Partners' },
+  { to: '/route-intelligence', label: 'Route Intel' },
   { to: '/about', label: 'About' },
 ];
 

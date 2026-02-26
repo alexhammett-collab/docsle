@@ -7,6 +7,7 @@ import Events from './pages/Events';
 import Members from './pages/Members';
 import About from './pages/About';
 import Partners from './pages/Partners';
+import RouteIntelligence from './pages/RouteIntelligence';
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
           <Route path="/members" element={<Members />} />
           <Route path="/about" element={<About />} />
           <Route path="/partners" element={<Partners />} />
+          <Route path="/route-intelligence" element={<RouteIntelligence />} />
         </Routes>
       </main>
       <Footer />

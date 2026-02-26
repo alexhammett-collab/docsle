@@ -55,6 +55,7 @@ export default function Footer() {
               { to: '/events', label: 'Events & Calendar' },
               { to: '/members', label: 'Members' },
               { to: '/partners', label: 'DOCLSE Partners' },
+              { to: '/route-intelligence', label: 'Route Intelligence' },
               { to: '/about', label: 'About DOCLSE' },
             ].map(l => (
               <Link key={l.to} to={l.to} style={{
